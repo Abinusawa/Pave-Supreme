@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 10px;
+}
+
+.grid {
+    display: flex;
+}
+
+.vertical-line {
+    border: 2px solid black;
+    margin-left: 20px;
+}

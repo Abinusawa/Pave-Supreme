@@ -1,0 +1,38 @@
+.tableContent {
+    border-collapse: collapse; /* reduce the amount of space in the table */
+    margin: 25px 0;
+    font-size: 1em;
+    width: 40%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    margin-left: 60px;
+}
+
+.tableContent tbody {
+    background-color: #ffffff;
+}
+
+.tableContent thead tr {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tableContent th,
+.tableContent td {
+    padding: 12px 15px;
+}
+
+
+.tableContent tbody tr {
+    border-bottom: 1px solid grey;
+}
+
+.tableContent tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tableContent tbody tr:last-of-type {
+    border-bottom: 2px solid #0a0a0a;
+}
